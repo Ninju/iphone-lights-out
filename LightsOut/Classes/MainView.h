@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LightsOutGame.h"
 
 @interface MainView : UIView {
-
+	LightsOutGame *game;
 }
+
+@property ( nonatomic, retain ) LightsOutGame *game;
+
+-(void) drawCellAtGameLocation: (CGPoint) location;
+-(CGRect) getRectForGameLocation: (CGPoint) location;
+-(BOOL) cellExistsAtLocation: (CGPoint) location;
+-(CGPoint) gameLocationForCellAt: (CGPoint) location;
 
 @end
