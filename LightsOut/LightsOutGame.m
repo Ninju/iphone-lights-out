@@ -47,7 +47,8 @@
 }
 
 -(BOOL) cellIsTurnedOnAt: (CGPoint) location {
-	return YES;
+	Cell *cell = [ self getCellAt: location ];
+  return [ cell isTurnedOn ];
 }
 
 @end
