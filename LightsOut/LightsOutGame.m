@@ -19,7 +19,9 @@
 		
 		for( y = 0; y < [ self getHeight ]; y++ ) {
 			for( x = 0; x < [ self getWidth ]; x++ ) {
-				cells[ y ][ x ] = [ [ Cell alloc ] initWithHugeCock ];
+				Cell *cell = [ [ Cell alloc ] initWithHugeCock ];
+				cells[ y ][ x ] = cell;
+				[ cell release ];
 			}
 		}
 	}
@@ -50,6 +52,10 @@
 -(BOOL) cellIsTurnedOnAt: (CGPoint) location {
 	Cell *cell = [ self getCellAt: location ];
   return [ cell isTurnedOn ];
+}
+
+-(void) dealloc {
+	[ super dealloc ];
 }
 
 @end

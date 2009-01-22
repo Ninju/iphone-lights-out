@@ -214,6 +214,9 @@
 			FAF8F8BB0F29107300C1AB59 /* PBXTextBookmark */ = FAF8F8BB0F29107300C1AB59 /* PBXTextBookmark */;
 			FAF8F8BF0F29109E00C1AB59 /* PBXTextBookmark */ = FAF8F8BF0F29109E00C1AB59 /* PBXTextBookmark */;
 			FAF8F8C00F2910A600C1AB59 /* PBXTextBookmark */ = FAF8F8C00F2910A600C1AB59 /* PBXTextBookmark */;
+			FAF8F8C10F2910FD00C1AB59 /* PBXTextBookmark */ = FAF8F8C10F2910FD00C1AB59 /* PBXTextBookmark */;
+			FAF8F8C20F2910FD00C1AB59 /* PBXTextBookmark */ = FAF8F8C20F2910FD00C1AB59 /* PBXTextBookmark */;
+			FAF8F8C60F29113000C1AB59 /* PBXTextBookmark */ = FAF8F8C60F29113000C1AB59 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FA1DC8340F27736C00BC2C1A /* Source Control */;
 		userBuildSettings = {
@@ -244,6 +247,8 @@
 		};
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	FA1DC8340F27736C00BC2C1A /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -266,9 +271,9 @@
 	};
 	FA8AD1DE0F27921200C0117B /* LightsOutGame.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {876, 784}}";
-			sepNavSelRange = "{652, 1}";
-			sepNavVisRange = "{482, 312}";
+			sepNavIntBoundsRect = "{{0, 0}, {876, 966}}";
+			sepNavSelRange = "{500, 0}";
+			sepNavVisRange = "{175, 331}";
 		};
 	};
 	FA8AD1EC0F27965000C0117B /* Cell.h */ = {
@@ -330,7 +335,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 13";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 529;
 		rType = 0;
 		vrLen = 173;
 		vrLoc = 40;
@@ -350,7 +355,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 18";
 		rLen = 0;
-		rLoc = 523;
+		rLoc = 568;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 176;
@@ -370,7 +375,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 27";
 		rLen = 0;
-		rLoc = 918;
+		rLoc = 963;
 		rType = 0;
 		vrLen = 97;
 		vrLoc = 175;
@@ -590,7 +595,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 31";
 		rLen = 0;
-		rLoc = 918;
+		rLoc = 963;
 		rType = 0;
 		vrLen = 231;
 		vrLoc = 239;
@@ -610,7 +615,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 28";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 836;
 		rType = 0;
 		vrLen = 138;
 		vrLoc = 177;
@@ -630,7 +635,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 12";
 		rLen = 0;
-		rLoc = 483;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 232;
 		vrLoc = 40;
@@ -650,7 +655,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 12";
 		rLen = 0;
-		rLoc = 483;
+		rLoc = 528;
 		rType = 0;
 		vrLen = 233;
 		vrLoc = 37;
@@ -710,7 +715,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 21";
 		rLen = 0;
-		rLoc = 452;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 292;
 		vrLoc = 175;
@@ -720,7 +725,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 37";
 		rLen = 0;
-		rLoc = 659;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 523;
@@ -770,7 +775,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 37";
 		rLen = 0;
-		rLoc = 659;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 504;
@@ -810,7 +815,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 21";
 		rLen = 0;
-		rLoc = 452;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 292;
 		vrLoc = 175;
@@ -860,7 +865,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 42";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 836;
 		rType = 0;
 		vrLen = 309;
 		vrLoc = 515;
@@ -880,7 +885,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 42";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 836;
 		rType = 0;
 		vrLen = 219;
 		vrLoc = 605;
@@ -900,7 +905,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 42";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 836;
 		rType = 0;
 		vrLen = 280;
 		vrLoc = 560;
@@ -910,7 +915,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 42";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 836;
 		rType = 0;
 		vrLen = 280;
 		vrLoc = 560;
@@ -990,7 +995,7 @@
 		comments = "warning: conflicting types for '-(BOOL)canSelectCellAt:(CGPoint *)location'";
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		rLen = 1;
-		rLoc = 45;
+		rLoc = 47;
 		rType = 1;
 	};
 	FAF8F8580F290A4E00C1AB59 /* PBXTextBookmark */ = {
@@ -1028,7 +1033,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 322;
 		vrLoc = 563;
@@ -1048,7 +1053,7 @@
 		comments = "warning: conflicting types for '-(BOOL)canSelectCellAt:(CGPoint *)location'";
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		rLen = 1;
-		rLoc = 45;
+		rLoc = 47;
 		rType = 1;
 	};
 	FAF8F85E0F290A5C00C1AB59 /* PBXTextBookmark */ = {
@@ -1056,7 +1061,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 9;
 		vrLoc = 962;
@@ -1066,7 +1071,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 9;
 		vrLoc = 962;
@@ -1076,7 +1081,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 563;
@@ -1096,7 +1101,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 9;
 		vrLoc = 962;
@@ -1106,7 +1111,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 9;
 		vrLoc = 950;
@@ -1124,7 +1129,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 9;
 		vrLoc = 950;
@@ -1154,7 +1159,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 29";
 		rLen = 0;
-		rLoc = 520;
+		rLoc = 565;
 		rType = 0;
 		vrLen = 318;
 		vrLoc = 507;
@@ -1172,7 +1177,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 45";
 		rLen = 0;
-		rLoc = 828;
+		rLoc = 873;
 		rType = 0;
 		vrLen = 396;
 		vrLoc = 563;
@@ -1202,7 +1207,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 29";
 		rLen = 0;
-		rLoc = 520;
+		rLoc = 565;
 		rType = 0;
 		vrLen = 318;
 		vrLoc = 507;
@@ -1307,7 +1312,7 @@
 		isa = PBXTextBookmark;
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 21";
-		rLen = 59;
+		rLen = 104;
 		rLoc = 397;
 		rType = 0;
 		vrLen = 153;
@@ -1318,7 +1323,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 21";
 		rLen = 16;
-		rLoc = 436;
+		rLoc = 431;
 		rType = 0;
 		vrLen = 153;
 		vrLoc = 288;
@@ -1378,7 +1383,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 21";
 		rLen = 16;
-		rLoc = 436;
+		rLoc = 431;
 		rType = 0;
 		vrLen = 153;
 		vrLoc = 288;
@@ -1398,7 +1403,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 21";
 		rLen = 16;
-		rLoc = 436;
+		rLoc = 431;
 		rType = 0;
 		vrLen = 153;
 		vrLoc = 288;
@@ -1658,7 +1663,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 38";
 		rLen = 0;
-		rLoc = 675;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 287;
 		vrLoc = 482;
@@ -1668,7 +1673,7 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 22";
 		rLen = 16;
-		rLoc = 436;
+		rLoc = 431;
 		rType = 0;
 		vrLen = 159;
 		vrLoc = 302;
@@ -1678,9 +1683,39 @@
 		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
 		name = "LightsOutGame.m: 38";
 		rLen = 1;
-		rLoc = 652;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 312;
 		vrLoc = 482;
+	};
+	FAF8F8C10F2910FD00C1AB59 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
+		name = "LightsOutGame.m: 38";
+		rLen = 1;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 482;
+	};
+	FAF8F8C20F2910FD00C1AB59 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
+		name = "LightsOutGame.m: 58";
+		rLen = 0;
+		rLoc = 1065;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 792;
+	};
+	FAF8F8C60F29113000C1AB59 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8AD1DE0F27921200C0117B /* LightsOutGame.m */;
+		name = "LightsOutGame.m: 24";
+		rLen = 0;
+		rLoc = 500;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 175;
 	};
 }
