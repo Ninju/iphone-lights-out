@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LightsOutGame.h"
+
+@class LightsOutGame;
 
 @interface MainView : UIView {
 	LightsOutGame *game;

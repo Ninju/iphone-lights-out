@@ -7,6 +7,7 @@
 //
 
 #import "LightsOutGame.h"
+#import "Cell.h"
 
 
 @implementation LightsOutGame
@@ -16,8 +17,8 @@
 	if( self ) {
 		int x, y;
 		
-		for( y = 1; y <= [ self getHeight ]; y++ ) {
-			for( x = 1; x <= [ self getWidth ]; x++ ) {
+		for( y = 0; y < [ self getHeight ]; y++ ) {
+			for( x = 0; x < [ self getWidth ]; x++ ) {
 				cells[ y ][ x ] = [ [ Cell alloc ] initWithHugeCock ];
 			}
 		}
@@ -26,15 +27,15 @@
 }
 
 -(int) getWidth {
-	return NUMBER_OF_CELLS;
+	return CELL_ROWS;
 }
 
 -(int) getHeight {
-	return NUMBER_OF_CELLS;
+	return CELL_COLS;
 }
 
 -(Cell *) getCellAt: (CGPoint) location {
-	return cells[ (int) location.y ][ (int) location.x ];
+	return cells[ (int) ( location.y - 1 ) ][ (int) ( location.x - 1 ) ];
 }
 
 -(void) selectCellAt: (CGPoint) location {
@@ -42,7 +43,7 @@
 	[ cell toggleLight ];
 }
 
--(BOOL) canSelectCellAt: (CGPoint *) location {
+-(BOOL) canSelectCellAt: (CGPoint) location {
 	return YES;
 }
 

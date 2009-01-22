@@ -25,4 +25,8 @@
 	turnedOn = !turnedOn;
 }
 
+-(BOOL) isTurnedOn {
+	return turnedOn;
+}
+
 @end

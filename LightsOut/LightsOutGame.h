@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Cell.h"
-#define NUMBER_OF_CELLS 5
+
+#define CELL_ROWS 5
+#define CELL_COLS 5
+
+@class Cell;
 
 
 @interface LightsOutGame : NSObject {
-	Cell *cells[ NUMBER_OF_CELLS ][ NUMBER_OF_CELLS ];
+	Cell *cells[ CELL_COLS ][ CELL_ROWS ];
 }
 
 -(id) initWithLargerCock;

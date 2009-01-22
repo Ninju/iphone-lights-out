@@ -17,5 +17,6 @@
 
 -(id) initWithHugeCock;
 -(void) toggleLight;
+-(BOOL) isTurnedOn;
 
 @end

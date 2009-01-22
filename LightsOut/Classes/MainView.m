@@ -7,6 +7,7 @@
 //
 
 #import "MainView.h"
+#import "LightsOutGame.h"
 
 #define SCREEN_WIDTH 320
 #define SCREEN_HEIGHT 480
@@ -23,10 +24,14 @@
 
 @synthesize game;
 
--(void) awakeFromNib {
-	[ super awakeFromNib ];
+-(id) initWithCoder: (NSCoder *) aDecoder {
+	self = [ super initWithCoder: aDecoder ];
 	
-	game = [ [ LightsOutGame alloc ] initWithLargerCock ];
+	if( self ) {
+		game = [ [ LightsOutGame alloc ] initWithLargerCock ];
+	}
+	
+	return self;
 }
 
 - (id)initWithFrame:(CGRect)frame {
