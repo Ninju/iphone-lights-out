@@ -21,7 +21,6 @@
 			for( x = 0; x < [ self getWidth ]; x++ ) {
 				Cell *cell = [ [ Cell alloc ] initWithHugeCock ];
 				cells[ y ][ x ] = cell;
-				[ cell release ];
 			}
 		}
 	}

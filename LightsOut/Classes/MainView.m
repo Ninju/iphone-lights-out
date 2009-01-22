@@ -66,14 +66,21 @@
 	}
 	
 	[ color setFill ];
-	UIRectFill( [ self getRectForGameLocation: location ] );
+	UIRectFill( [ self rectForGameLocation: location ] );
 }
 
 
 -(void) touchesBegan: (NSSet *) touches withEvent: (UIEvent *) event {
-	UITouch *touch = touches.anyObject;
+	UITouch *touch = [ touches anyObject ];
 	CGPoint touchLocation = [ touch locationInView: self ];
+	NSLog( @"View touched at: (%d, %d)", touchLocation.x, touchLocation.y );
+	
+	if( ![ self cellExistsAtLocation: touchLocation ] ) {
+		return;
+	}
+	
 	CGPoint location = [ self gameLocationForCellAt: touchLocation ];
+	NSLog( @"Cell at (%d, %d) touched.", location.x, location.y );
 	
 	if( [ game canSelectCellAt: location ] ) {
 		[ game selectCellAt: location ];
@@ -81,7 +88,7 @@
 	}
 }
 
--(CGRect) getRectForGameLocation: (CGPoint) location {
+-(CGRect) rectForGameLocation: (CGPoint) location {
 	int x, y;
 	
 	x = SCREEN_WIDTH / 2 - GAME_WIDTH / 2 + ( location.x - 1 ) * ( CELL_WIDTH + CELL_MARGIN );

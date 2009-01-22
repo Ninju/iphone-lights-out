@@ -17,7 +17,7 @@
 @property ( nonatomic, retain ) LightsOutGame *game;
 
 -(void) drawCellAtGameLocation: (CGPoint) location;
--(CGRect) getRectForGameLocation: (CGPoint) location;
+-(CGRect) rectForGameLocation: (CGPoint) location;
 -(BOOL) cellExistsAtLocation: (CGPoint) location;
 -(CGPoint) gameLocationForCellAt: (CGPoint) location;
 
