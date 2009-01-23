@@ -115,7 +115,7 @@
 	int x, y;
 	
 	x = ( location.x - ( SCREEN_WIDTH / 2 - GAME_WIDTH / 2 ) ) / CELL_WIDTH + 1;
-	y = ( location.x - ( SCREEN_HEIGHT / 2 - GAME_HEIGHT / 2 ) ) / CELL_HEIGHT + 1;
+	y = ( location.y - ( SCREEN_HEIGHT / 2 - GAME_HEIGHT / 2 ) ) / CELL_HEIGHT + 1;
 	
 	return CGPointMake( x, y );
 }
