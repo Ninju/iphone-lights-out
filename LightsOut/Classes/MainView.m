@@ -73,7 +73,7 @@
 -(void) touchesBegan: (NSSet *) touches withEvent: (UIEvent *) event {
 	UITouch *touch = [ touches anyObject ];
 	CGPoint touchLocation = [ touch locationInView: self ];
-	NSLog( @"View touched at: (%d, %d)", touchLocation.x, touchLocation.y );
+	NSLog( @"View touched at: (%f, %f)", touchLocation.x, touchLocation.y );
 	
 	if( ![ self cellExistsAtLocation: touchLocation ] ) {
 		return;
