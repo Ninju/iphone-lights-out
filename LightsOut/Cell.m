@@ -13,6 +13,14 @@
 
 @synthesize turnedOn;
 
+-(id) initWithLightOn: (BOOL) lightOn {
+	if( self = [ super init ] ) {
+		turnedOn = lightOn;
+	}
+	
+	return self;
+}
+
 -(id) initWithHugeCock {
 	self = [ super init ];
 	if( self ) {
