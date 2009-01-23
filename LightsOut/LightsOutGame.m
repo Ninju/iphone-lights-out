@@ -16,10 +16,13 @@
 	self = [ super init ];
 	if( self ) {
 		int x, y;
+		srandom( time( NULL ) );
 		
 		for( y = 0; y < [ self getHeight ]; y++ ) {
 			for( x = 0; x < [ self getWidth ]; x++ ) {
-				Cell *cell = [ [ Cell alloc ] initWithHugeCock ];
+				BOOL lightOn = random() % 2 == 1 ? YES : NO;
+				NSLog( @"Light is %f", lightOn );
+				Cell *cell = [ [ Cell alloc ] initWithLightOn: lightOn ];
 				cells[ y ][ x ] = cell;
 			}
 		}
