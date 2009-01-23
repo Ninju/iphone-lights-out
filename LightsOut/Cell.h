@@ -16,6 +16,7 @@
 @property ( nonatomic ) BOOL turnedOn;
 
 -(id) initWithHugeCock;
+-(id) initWithLightOn: (BOOL) lightOn;
 -(void) toggleLight;
 -(BOOL) isTurnedOn;
 
