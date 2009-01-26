@@ -43,8 +43,27 @@
 }
 
 -(void) selectCellAt: (CGPoint) location {
-	Cell *cell = [ self getCellAt: location ];
-	[ cell toggleLight ];
+	int dx, dy, x, y, i;
+	Cell *selectedCell, *adjacentCell;
+	CGPoint direction;
+	CGPoint directions[ 4 ] = { CGPointMake( 1, 0 ), CGPointMake( 0, 1 ), CGPointMake( -1, 0 ), CGPointMake( 0, -1 ) };
+	
+	for( i = 0; i < 4; i++ ) {
+		direction = directions[ i ];
+		dx = direction.x;
+		dy = direction.y;
+		
+		x = dx + location.x;
+		y = dy + location.y;
+		
+		if( x >= 1 && y >= 1 && x <= [ self getWidth ] && y <= [ self getHeight ] ) {
+			adjacentCell = [ self getCellAt: CGPointMake( x, y ) ];
+			[ adjacentCell toggleLight ];
+		}
+	}
+	
+	selectedCell = [ self getCellAt: location ];
+	[ selectedCell toggleLight ];
 }
 
 -(BOOL) canSelectCellAt: (CGPoint) location {
@@ -53,7 +72,7 @@
 
 -(BOOL) cellIsTurnedOnAt: (CGPoint) location {
 	Cell *cell = [ self getCellAt: location ];
-  return [ cell isTurnedOn ];
+	return [ cell isTurnedOn ];
 }
 
 -(void) dealloc {
